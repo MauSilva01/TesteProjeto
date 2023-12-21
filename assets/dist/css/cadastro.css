@@ -1,0 +1,15 @@
+
+
+#navHeader {background-color:#000;  width: 100vw;}
+#divHeaderTitle {width: 70%; }
+#divHeaderTitle span {color: white;  text-align: center; }
+#divFormulario { padding-left: 50px; position: relative; top: 90px; width: 100vw;}
+#divLineDivisor02 {left:30px; padding-left: 50px; position: relative; top: 110px; width: 90%;}
+#divRazaoSocial { left: 0; position: relative; top:130px;  width: 100vw; }
+#divRazaoSocial span { color: #666; text-align: center; width: 100vw;}
+
+
+
+
+.form-row  {margin: 15px;}
+.form-group {margin: 15px;}

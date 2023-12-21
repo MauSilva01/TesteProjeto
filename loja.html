@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bem Vindo</title>
+
+    <!-- CSS-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://cdn.awsli.com.br/">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" > 
+
+    <link href="./assets/dist/css/carousel.css" rel="stylesheet">
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/dist/css/home.css" rel="stylesheet">
+    
+    <!-- Scripts do Bootstrap (jQuery e Popper.js) -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>-->
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/dist/js/color-modes.js"></script>
+    <script src="./assets/dist/js/home.js"></script>
+</head>
+<body>
+
+    <!-- area Header-->
+    <nav class="navbar navbar-expand-md fixed-top" id="navHeader">
+        <div class="container-fluid">
+            <a class="navbar-brand" href=""><img style="height: 52px;" src="./assets/img/logo.webp"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <form class="w-100 me-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar.." aria-label="Search" >
+                </form>
+
+                <div class="flex-shrink-0 dropdown" style="border: none">
+                    <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="mdo" width="50" height="50" class="rounded-circle">
+                    </a>
+                    <ul class="dropdown-menu text-small shadow">
+                        <li><a class="dropdown-item" href="#">Meus Pedidos </a></li>
+                        <li><a class="dropdown-item" href="#">Configurações</a></li>
+                        <li><a class="dropdown-item" href="#">Meu Perfil</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="login.php">Entrar ou Cadastrar-se</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <button class="w-100 " type="button" href="login.php">Sign out</button>
+                    </ul>
+                </div>
+
+                <div class="dropdown" style="border: none">
+                    <button  class="btn btn-secondary dropdown-toggle" style="background-color: transparent;"  data-bs-toggle="dropdown" aria-expanded="false">
+                    Precisa de ajuda?<br>
+                    <strong>Fale conosco</strong>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">11-948686052</a></li>
+                        <li><a class="dropdown-item" href="#">MaalvesSilva01@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>	 
+    </nav>
+
+    <!-- area Menu-->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="divMenu">
+        <div class="navbar-nav" >
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/teste-20424944">Novidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/mais-vendidos">Mais Vendidos</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Roupas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/calca">Calça</a>
+                        <a class="dropdown-item" href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/moletom">Moletom</a>
+                        <a class="dropdown-item" href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/pantalona">Pantalona</a>
+                        <a class="dropdown-item" href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/saias">Saias</a>
+                        <a class="dropdown-item" href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/shorts">Shorts</a>
+                        <a class="dropdown-item" href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/t-shirt">T-Shirt</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/primavera">Primavera</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/ofertas">BlackWeek #2023 🔥</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- area Aviso -->
+    <div class="container" id="divAviso">
+        <div class="row">
+            <div class="col-sm divAviso-col">
+                <div class="row">
+                    <div class="col col-lg-3">
+                        <img src="./assets/img/8665864_truck_fast_icon.png" style="margin: 6px; margin-right: 10px;"></img></td></tr>
+                    </div>
+                    <div class="col col-lg-8">
+                        <h3 class="fs-6 text-body-emphasis">Promoções Imperdiveis até 75% de Desconto.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm divAviso-col">
+                <div class="row">
+                    <div class="col col-lg-3">
+                        <img src="./assets/img/134157_money_cashier_dollar_currency_icon.png" style="margin: 6px; margin-right: 10px;"></img>
+                    </div>
+                    <div class="col col-lg-8">
+                        <h3 class="mb-0 fs-6 text-body-">Ganhe até 5% de desconto pagando com Pix!!</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm divAviso-col">
+                <div class="row">
+                    <div class="col col-lg-3">
+                        <img src="./assets/img/8664810_credit_card_icon.png" style="margin: 6px; margin-right: 10px;"></img>
+                    </div>
+                    <div class="col col-lg-8">
+                        <h3 class="mb-0 fs-6 text-body-emphasis">Parcele em até 6x Sem juros!!!</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm divAviso-col">
+                <div class="row">
+                    <div class="col col-lg-3">                
+                        <img src="./assets/img/211855_locked_icon.png" style="margin: 6px; margin-right: 10px;"></img>
+                    </div>
+                    <div class="col col-lg-8">
+                        <h3 class=" mb-0 fs-6 text-body-emphasis">Compra 100% segura com criptografia SSL</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- area Carrossel-->
+    <div class="row" id="divCarrosel">
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" class="bg-dark"aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner" >
+                <div class="carousel-item active" style="background-image: url(./assets/img/hom_carrosel_02.webp);" >
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+                <div class="container" style="width: 100%; height: auto;">
+                    <div class="carousel-caption text-start">
+                    <br>
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-item" style="background-image: url(./assets/img/hom_carrosel_01.webp);">
+                <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+                <div class="container">
+                    <div class="carousel-caption">
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>            
+    </div>
+
+    <!-- area Lancamentos-->
+    <div class="container" id="divLancamentos">
+        <div><h3 style="text-align: center;">Lançamentos</h3></div>
+        <div class="row">
+            <div class="col-sm col-lg-3">
+                <img class="rounded-4 shadow-lg" src="./assets/img/item_01_bolsa.webp">
+                <!--<div class="d-flex flex-column p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: transparent;">Promoções Muito boas</h3>      
+                </div>-->
+            </div>
+    
+            <div class="col-sm col-lg-3">
+                <img class="rounded-4 shadow-lg" src="./assets/img/item_03_brinco.webp">
+                <!--<div class="d-flex flex-column p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: transparent;">Promoções Muito boas</h3>
+                </div>-->
+            </div>
+    
+            <div class="col-sm col-lg-3">
+                <img class="rounded-4 shadow-lg" src="./assets/img/item_02_bolsa.webp">
+                <!--<div class="d-flex flex-column p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: transparent;">Promoções Muito boas</h3>
+                </div>-->
+            </div>
+        
+            <div class="col-sm col-lg-3">
+                <img class="rounded-4 shadow-lg" src="./assets/img/item_01_bolsa.webp">
+                <!--<div class="d-flex flex-column h-50 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="color: transparent;">Promoções Muito boas</h3>      
+                </div>-->
+            </div>
+        </div>
+    </div>       
+
+
+    <!-- area Banner 01-->
+    <div class="row" id="divBanner01">
+        <img src="https://cdn.awsli.com.br/1140x1448/2630/2630379/banner/tarja-home-1140x120-4xb9b2rovj.png" >
+    </div>
+
+    <!-- area Destaque-->
+    <div class="row" id="divDestaque">
+        <div><h3 style="text-align: center;">Destaques</h3></div>
+        <div id="myCarousel2" class="carousel slide " data-bs-ride="carousel" >
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="0" class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel2" data-bs-slide-to="1" class="bg-dark"aria-label="Slide 2"></button>
+            </div>
+            <div class="container carousel-inner row-cols-md-4 row-cols-lg-4">
+            <div class="carousel-item active ">
+                <div class="row" style="padding: 10px; " >
+                <!-- Destaque - Item 01 -->
+                <div class="col-sm destaque-item col-lg-3 text-bg-dark rounded-4 shadow-lg">
+                    <a href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/vestido-midi-ilitia-muna-verde-agua-muna" class="produto-destaque" title="Vestido Midi Ilítia Muna - Verde Água Muna">
+                    <div class="d-flex flex-column h-100 p-1 pb-1 text-white text-shadow-1 rounded-4">
+                    <img src="./assets/img/hom_destaque_01.webp" style="width: 98%;">
+        
+                    <div class="info-produto">
+                        <span>Regata de Alça Fina com Amarração nas Costas</span>
+                        <div><strong class="" data-sell-price="228.00">R$ 399,90</strong></div>
+                        <div>
+                            <span class="preco-parcela ">
+                            até <strong class="cor-secundaria ">6x</strong>
+                            de  <strong class="cor-secundaria">R$ 26,65</strong>
+                            <span>sem juros</span>
+                            </span>
+                        <span class="desconto-a-vista">
+                            ou<strong class="cor-secundaria">R$ 151,90</strong>via Boleto Bancário
+                        </span>
+                        </div>
+                    </div>
+                    </div>
+                    </a>
+                </div>
+                
+                <!-- Destaque - Item 02 -->
+                <div class="col-sm destaque-item col-lg-3 text-bg-dark rounded-4 shadow-lg">
+                    <a href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/vestido-midi-ilitia-muna-verde-agua-muna" class="produto-sobrepor" title="Vestido Midi Ilítia Muna - Verde Água Muna">
+                    <div class="d-flex flex-column h-100 p-1 pb-1 text-white text-shadow-1 rounded-4">
+                        <img src="./assets/img/hom_destaque_02.webp" style="width: 98%;">
+    
+                        <div class="info-produto">
+                        <span>Vestido Midi Ilítia Muna - Verde Água Muna</span>
+                        <div><strong class="" data-sell-price="228.00">$ 228,00</strong></div>
+                        <div>
+                            <span class="preco-parcela ">
+                                até <strong class="cor-secundaria ">6x</strong>
+                                de  <strong class="cor-secundaria">R$ 38,00</strong>
+                                <span>sem juros</span>
+                            </span>
+                            <span class="desconto-a-vista">
+                            ou<strong class="cor-secundaria">R$ 216,60</strong>via Boleto Bancário
+                            </span>
+                        </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+    
+                <!-- Destaque - Item 03 -->
+                <div class="destaque-item col-lg-3 text-bg-dark rounded-4 shadow-lg">
+                    <a href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/vestido-midi-ilitia-muna-verde-agua-muna" class="produto-sobrepor" title="Vestido Midi Ilítia Muna - Verde Água Muna">
+                    <div class="d-flex flex-column h-100 p-1 pb-1 text-white text-shadow-1 rounded-4">
+                        <img src="./assets/img/hom_destaque_03.webp" style="width: 98%;">
+    
+                        <div class="info-produto">
+                        <span>Regata Evasê Decote V com Nó na Alça</span>
+                        <div><strong class="" data-sell-price="228.00">R$ 199,90</strong></div>
+                        <div>
+                            <span class="preco-parcela ">
+                                até <strong class="cor-secundaria ">6x</strong>
+                                de  <strong class="cor-secundaria">R$ 33,31</strong>
+                                <span>sem juros</span>
+                            </span>
+                            <span class="desconto-a-vista">
+                            ou<strong class="cor-secundaria">R$ 189,90</strong>via Boleto Bancário
+                            </span>
+                        </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+    
+                <!-- Destaque - Item 02 -->
+                <div class="destaque-item col-lg-3 text-bg-dark rounded-4 shadow-lg">
+                    <a href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/vestido-midi-ilitia-muna-verde-agua-muna" class="produto-sobrepor" title="Vestido Midi Ilítia Muna - Verde Água Muna">
+                    <div class="d-flex flex-column h-100 p-1 pb-1 text-white text-shadow-1 rounded-4">
+                        <img src="./assets/img/hom_destaque_04.webp" style="width: 98%;">
+    
+                        <div class="info-produto">
+                            <span>Blazer Alongado Acinturado Bolsos</span>
+                            <div><strong class="" data-sell-price="228.00"> R$ 399,90</strong></div>
+                            <div>
+                                <span class="preco-parcela ">
+                                    até <strong class="cor-secundaria ">6x</strong>
+                                    de  <strong class="cor-secundaria">R$ 66,65</strong>
+                                    <span>sem juros</span>
+                                </span>
+                                <span class="desconto-a-vista">
+                                ou<strong class="cor-secundaria">R$ 379,90</strong>via Boleto Bancário
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                </div>
+            </div>
+            
+            <div class="carousel-item active">
+                <div class="row" style="padding: 10px; " >
+    
+                <!-- Destaque - Item 05 -->
+                <div class="destaque-item col-lg-3 text-bg-dark rounded-4 shadow-lg">
+                    <a href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/vestido-midi-ilitia-muna-verde-agua-muna" class="produto-sobrepor" title="Vestido Midi Ilítia Muna - Verde Água Muna">
+                    <div class="d-flex flex-column h-100 p-1 pb-1 text-white text-shadow-1 rounded-4">
+                        <img src="./assets/img/item_03_brinco.webp" style="width: 98%;">
+    
+                        <div class="info-produto">
+                        <span>Brinco de Argola Tripla Média Essential</span>
+                        <div><strong class="" data-sell-price="228.00"> R$ 99,90</strong></div>
+                        <div>
+                            <span class="preco-parcela ">
+                                até <strong class="cor-secundaria ">6x</strong>
+                                de  <strong class="cor-secundaria">R$ 16,65</strong>
+                                <span>sem juros</span>
+                            </span>
+                            <span class="desconto-a-vista">
+                            ou <strong class="cor-secundaria"> R$ 94,90 </strong> via Boleto Bancário
+                            </span>
+                        </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+    
+                <!-- Destaque - Item 06 -->
+                <div class="destaque-item col-lg-3 text-bg-dark rounded-4 shadow-lg">
+                    <a href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/vestido-midi-ilitia-muna-verde-agua-muna" class="produto-sobrepor" title="Vestido Midi Ilítia Muna - Verde Água Muna">
+                    <div class="d-flex flex-column h-100 p-1 pb-1 text-white text-shadow-1 rounded-4">
+                        <img src="./assets/img/hom_destaque_02.webp" style="width: 98%;">
+    
+                        <div class="info-produto">
+                        <span>Vestido Midi Ilítia Muna - Verde Água Muna</span>
+                        <div><strong class="" data-sell-price="228.00">$ 228,00</strong></div>
+                        <div>
+                            <span class="preco-parcela ">
+                                até <strong class="cor-secundaria ">6x</strong>
+                                de  <strong class="cor-secundaria">R$ 38,00</strong>
+                                <span>sem juros</span>
+                            </span>
+                            <span class="desconto-a-vista">
+                            ou<strong class="cor-secundaria">R$ 216,60</strong>via Boleto Bancário
+                            </span>
+                        </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+    
+                <!-- Destaque - Item 07 -->
+                <div class="destaque-item col-lg-3 text-bg-dark rounded-4 shadow-lg">
+                    <a href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/vestido-midi-ilitia-muna-verde-agua-muna" class="produto-sobrepor" title="Vestido Midi Ilítia Muna - Verde Água Muna">
+                    <div class="d-flex flex-column h-100 p-1 pb-1 text-white text-shadow-1 rounded-4">
+                        <img src="./assets/img/item_01_bolsa.webp" style="width: 98%;">
+    
+                        <div class="info-produto">
+                        <span>Bolsa Joan Beatnik &amp; Sons em Couro Legítimo - Caramelo"</span>
+                        <div><strong class="" data-sell-price="228.00"> R$ 808,00</strong></div>
+                        <div>
+                            <span class="preco-parcela ">
+                                até <strong class="cor-secundaria ">6x</strong>
+                                de  <strong class="cor-secundaria">R$ 121,16</strong>
+                                <span>sem juros</span>
+                            </span>
+                            <span class="desconto-a-vista">
+                            ou <strong class="cor-secundaria">R$ 690,65</strong> via Boleto Bancário
+                            </span>
+                        </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+    
+                <!-- Destaque - Item 08 -->
+                <div class="destaque-item col-lg-3 text-bg-dark rounded-4 shadow-lg">
+                    <a href="https://demo-black-unique-1-0-pixelset.lojaintegrada.com.br/vestido-midi-ilitia-muna-verde-agua-muna" class="produto-sobrepor" title="Vestido Midi Ilítia Muna - Verde Água Muna">
+                    <div class="d-flex flex-column h-100 p-1 pb-1 text-white text-shadow-1 rounded-4">
+                        <img src="./assets/img/item_02_bolsa.webp" style="width: 98%;">
+    
+                        <div class="info-produto">
+                        <span>Blazer Alongado Acinturado Bolsos</span>
+                        <div><strong class="" data-sell-price="228.00"> R$ 399,90</strong></div>
+                        <div>
+                            <span class="preco-parcela ">
+                                até <strong class="cor-secundaria ">6x</strong>
+                                de  <strong class="cor-secundaria">R$ 66,65</strong>
+                                <span>sem juros</span>
+                            </span>
+                            <span class="desconto-a-vista">
+                            ou<strong class="cor-secundaria">R$ 379,90</strong>via Boleto Bancário
+                            </span>
+                        </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>            
+                </div>
+            </div>
+            </div>
+        </div>            
+    </div>
+
+        <!-- area Banner 02-->
+        <div class="row" id="divBanner02">
+            <div class="span12 banner tarja">
+                <img src="https://cdn.awsli.com.br/1140x1448/2630/2630379/banner/tarja-home-1140x120-4xb9b2rovj.png" >
+              </div>            
+        </div> 
+        
+        <!-- area Avaliacoes-->
+        <div class="row" id="divAvaliacoes">
+            <div><h3 style="text-align: center;">Avaliações de nossos clientes</h3></div>
+            <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                <div class="MultiCarousel-inner">
+                    <div class="item">
+                        <div class="pad15">
+                            <h5>Produtos D++++</h5>
+                            <br>
+                            <p>5 Estrelas!!</p>
+                            <br>
+                            <p>Vela super cheirosa, alta qualidade, durabilidade excelente!</p>
+                            <br>
+                            <h3>Ricardo Nunes</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                          <h5>Ótimos produtos</h5>
+                          <br>
+                          <p>5 Estrelas!!</p>
+                          <br>
+                          <p>Loja com atendimento muito bom, processo de entrega rápido</p>
+                          <br>
+                          <h3>Rodriguez</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                          <h5>Atendimento Excelente</h5>
+                          <br>
+                          <p>5 Estrelas!!</p>
+                          <br>
+                          <p>Produto com ótimo custo benefício, e entrega bem rápida</p>
+                          <br>
+                          <h3>João Paulo</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                          <h5>Melhores Produtos</h5>
+                          <br>
+                          <p>5 Estrelas!!</p>
+                          <br>
+                          <p>Produto com ótimo custo benefício e entrega bem rápida</p>
+                          <br>
+                          <h3>Mauricio</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                          <h5>Melhor Loja</h5>
+                          <br>
+                          <p>5 Estrelas!!</p>
+                          <br>
+                          <p>Produto com ótimo custo benefício, e entrega bem rápida</p>
+                          <br>
+                          <h3>Heitor</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                          <h5>Adorei os Produtinhos</h5>
+                          <br>
+                          <p>5 Estrelas!!</p>
+                          <br>
+                          <p>Perfuma completamente o carro, não é enjoativo e não faz bagunça alguma.</p>
+                          <br>
+                          <h3>Thainá</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                          <h5>Não Gostei, AMEII!!</h5>
+                          <br>
+                          <p>5 Estrelas!!</p>
+                          <br>
+                          <p>Produto com excelente custo-benefício, adoreeei! muito bom</p>
+                          <br>
+                          <h3>Ariane</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="pad15">
+                          <h5>SAC muito bom</h5>
+                          <br>
+                          <p>5 Estrelas!!</p>
+                          <br>
+                          <p>Na primeira compra houve um problema com relação ao produto  </p>
+                          <br>
+                          <h3>André Lopes</h3>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev btn-primary leftLst" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next btn-primary rightLst" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>                
+              </div>
+        </div>
+
+        <!-- area Divisor 01-->
+        <div class="row" id="divLineDivisor01">
+            <hr/>
+        </div>
+
+        <!-- area Footer-->
+        <div class="row" id="divFooter">
+                  <div class="col">
+                    <ul>
+                      <span><h2>Conteúdo</h2></span>
+              
+                      <li>Fale Conosco</li>
+              
+                      <li>Quem somos</li>
+                    
+                      <li>Meios de pagamento e de frete</li>
+                    
+                      <li>Política de privacidade</li>
+                      
+                      <li>Política de Trocas e Devoluções</li>
+                      
+                      <li>Garantia</li>     
+                    </ul>
+                  </div>
+                  <div class="col">
+                    <ul>
+                      <span><h2>Categorias</h2></span>
+              
+                      <li>Novidades</li>
+              
+                      <li>Mais Vendidos</li>
+                    
+                      <li>Roupas</li>
+                    
+                      <li>Primavera</li>
+                      
+                      <li>Black Week #2023</li>
+                    </ul>
+                  </div>
+                  <div class="col">
+                    <ul>
+                      <span><h2>Sobre a Loja</h2></span>
+                      <p>
+                        <h6>
+                          Seja bem-vindo à nossa loja! 💙
+                          Tenha certeza de que aqui você terá uma excelente experiência de compra. Nossos produtos são selecionados entre os melhores fornecedores do mercado e nosso preço ahhhhh super competitivo.
+                          Dica: Nós enviamos descontos para quem se cadastra em nossa newsletter.
+                          Nosso foco é que seu pedido chegue em perfeito estado até sua casa, nossa atenção e cuidado com cada etapa é nossa garantia de qualidade.
+                        </h6>
+                      </p>                  
+                    </ul>
+                  </div>
+        </div>
+
+        <!-- area Divisor 02-->
+        <div class="row" id="divLineDivisor02">
+            <hr/>
+        </div>
+
+        <!-- area Formas de Pagamentos -->
+        <div class="row" id="divPagamentos">
+            <span>
+                <img src="./assets/img/1933704_amex_payment_icon.png" alt="Mercado Pago">
+                <img src="./assets/img/472318_dinner_payment_icon.png" alt="Mercado Pago">
+                <img src="./assets/img/67217_mastercard_icon.png" alt="Mercado Pago">
+                <img src="./assets/img/38613_visa_payment_icon.png" alt="Mercado Pago">
+                <img src="https://cdn.awsli.com.br/production/static/img/formas-de-pagamento/boleto-logo.png?v=69e2345" alt="Mercado Pago" class="logo-rodape-boleto-mercadopagov1">
+                <img src="https://cdn.awsli.com.br/production/static/img/formas-de-pagamento/mercadopagov1-logo.png?v=69e2345" alt="Mercado Pago" class="logo-rodape-mercadopagov1">
+                <img src="https://cdn.awsli.com.br/production/static/img/struct/stamp_encryptssl.png" alt="Site Seguro">
+            </span>
+        </div>
+
+        <!-- area Dados da empresa-->
+        <div class="row" id="divRazaoSocial">
+            <span>Loja Avaliação (Ficticia) - CNPJ: 09.739.736/9999-99 © Todos os direitos reservados.</span>
+            <span>2023</span>
+        </div>
+    </div>
+    
+</body>
+</html>
